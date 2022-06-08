@@ -24,7 +24,6 @@
 * There are two arduinos.
 - Arduino 1 sends temperature value to Arduino 2 through serial communication.
 
----
 ### 1) Arduino 1 (Transmit to fan, temperature, and vibration information)
 - LED, buzzer, servo motor are operated by measuring temperature value with thermistor.
 - Fan, temperature, and viration information read from Arduino 1 is transmitted to Arduino 2 and output as a buzzer.
