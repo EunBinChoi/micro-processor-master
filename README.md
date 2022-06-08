@@ -1,6 +1,7 @@
-# micro-processor-master
+# Micro Processor
+- This is the ardunio-based system that I've developed.
 
-===
+---
 ## Arduino Spa 
 ### Description
 - The proposed arduino spa is a bathtub that always maintains the customized temperature for the user.
@@ -44,7 +45,7 @@
 - Vibration motor: Vibration can be on/off by the received viration information from Arduino 1. (beacuse it knows all information from smartphone app)  
 
 
-===
+---
 ## Smart Stick for Blind 
 #### Description
 - The proposed smart stick consists of flame sensor, ultrasonic sensor, heart rate sensor whose information is provided to the guardian of the user who uses the smart stick through application.
