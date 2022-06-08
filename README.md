@@ -1,3 +1,3 @@
 # micro-processor-master
-## Auduino Spa
+## Arduino Spa
 ## Smart Stick for Blind
