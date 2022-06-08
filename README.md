@@ -1,5 +1,6 @@
 # micro-processor-master
 
+===
 ## Arduino Spa 
 ### Description
 - The proposed arduino spa is a bathtub that always maintains the customized temperature for the user.
@@ -22,7 +23,7 @@
 * There are two arduinos.
 - Arduino 1 sends temperature value to Arduino 2 through serial communication.
 
---
+---
 ### 1) Arduino 1 (Transmit to fan, temperature, and vibration information)
 - LED, buzzer, servo motor are operated by measuring temperature value with thermistor.
 - Fan, temperature, and viration information read from Arduino 1 is transmitted to Arduino 2 and output as a buzzer.
@@ -40,9 +41,10 @@
 #### Components
 - Fan: Fan speed is controlled by the received fan speed value from Arduino 1. (beacuse it knows all information from smartphone app)
 - Buzzer: Buzzer is played by the temperature value when the measured tempeature is higher than the temperature that user is set.
-- Vibration motor: Vibration can be on/off by the received viration information from Arduino 1. (beacuse it knows all information from smartphone app)
+- Vibration motor: Vibration can be on/off by the received viration information from Arduino 1. (beacuse it knows all information from smartphone app)  
 
 
+===
 ## Smart Stick for Blind 
 #### Description
 - The proposed smart stick consists of flame sensor, ultrasonic sensor, heart rate sensor whose information is provided to the guardian of the user who uses the smart stick through application.
