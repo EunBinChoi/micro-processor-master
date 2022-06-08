@@ -42,7 +42,7 @@
 - Fan: Fan speed is controlled by the received fan speed value from Arduino 1 (*). 
 - Buzzer: Buzzer is played by the temperature value when the measured tempeature is higher than the temperature that user is set.
 - Vibration motor: Vibration can be on/off by the received viration information from Arduino 1 (*). 
-    * Because Arduino 1 knows all of information from smartphone app.
+    * (*) Because Arduino 1 knows all of information from smartphone app.
 
 
 ---
