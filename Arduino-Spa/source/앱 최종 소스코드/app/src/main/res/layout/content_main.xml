@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.arduinospa.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:id="@+id/packet_Test_layout">
+
+        <TextView
+            android:id="@+id/textViewTerminal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#fdfdff"
+            android:scrollbars="vertical"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/editTextInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/buttonSend"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Send" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_layout"
+        android:visibility="visible"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_marginTop="80dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Temperature : "
+                    android:id="@+id/temp_textview"
+                    android:textColor="#344aec"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/font_size"
+                    android:layout_marginBottom="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Min "
+                android:id="@+id/min_textview"
+                android:textColor="#344aec"
+                android:textStyle="bold"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/font_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Max "
+                android:id="@+id/max_textview"
+                android:textColor="#344aec"
+                android:textStyle="bold"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/font_size" />
+
+            <SeekBar
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/min_seekbar"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:max="20" />
+
+            <SeekBar
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/max_seekbar"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal|right"
+                android:layout_row="1"
+                android:layout_column="3"
+                android:layout_marginLeft="0dp"
+                android:longClickable="false"
+                android:max="20" />
+
+        </GridLayout>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="진동"
+            android:id="@+id/vibration_switch"
+            android:checked="false"
+            android:textColor="#344aec"
+            android:layout_marginTop="40dp"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="환풍기"
+                android:id="@+id/fan_textview"
+                android:textColor="#344aec"
+                android:textStyle="bold"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.00" />
+
+            <SeekBar
+                android:layout_width="303dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fan_seekbar"
+                android:layout_row="4"
+                android:layout_column="15"
+                android:layout_weight="0.00"
+                android:indeterminate="false"
+                android:layout_gravity="right"
+                android:max="255" />
+        </GridLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
