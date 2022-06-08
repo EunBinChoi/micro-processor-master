@@ -1,5 +1,5 @@
 # Micro Processor
-- This is the ardunio-based system that I've developed.
+- This is the arduino-based system that I've developed.
 
 ---
 ## Arduino Spa 
