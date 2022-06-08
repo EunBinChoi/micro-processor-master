@@ -10,8 +10,8 @@
    * Cutomized temperature setting using application: https://youtube.com/shorts/VFi2XZlYpUo?feature=share
    * Cutomized temperature setting using LCD: https://youtube.com/shorts/gmrIBQkYBGY?feature=share
    * Servo motor: https://youtube.com/shorts/DmHpi-TGe-w?feature=share
-   * Vibration motor: https://youtube.com/shorts/RZT6GaXKF-g?feature=share
-   * Fan: https://youtube.com/shorts/q7xfCArS2q0?feature=share
+   * Vibration motor using application: https://youtube.com/shorts/RZT6GaXKF-g?feature=share
+   * Fan control using application: https://youtube.com/shorts/q7xfCArS2q0?feature=share
 
 ### Features
 - The minimum and maximum values are input from the user, and when the temperature range is exceeded, a warning sound and the LED are turned on at the same time.
