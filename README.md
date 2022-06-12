@@ -7,8 +7,8 @@
 - The proposed arduino spa is a bathtub that always maintains the customized temperature for the user.
 - video
    * Total structure: https://youtube.com/shorts/BPJdXCAPliw?feature=share
-   * Cutomized temperature setting using application: https://youtube.com/shorts/VFi2XZlYpUo?feature=share
-   * Cutomized temperature setting using LCD: https://youtube.com/shorts/gmrIBQkYBGY?feature=share
+   * Customized temperature setting using application: https://youtube.com/shorts/VFi2XZlYpUo?feature=share
+   * Customized temperature setting using LCD: https://youtube.com/shorts/gmrIBQkYBGY?feature=share
    * Servo motor: https://youtube.com/shorts/DmHpi-TGe-w?feature=share
    * Vibration motor using application: https://youtube.com/shorts/RZT6GaXKF-g?feature=share
    * Fan control using application: https://youtube.com/shorts/q7xfCArS2q0?feature=share
